@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Filarmônica Moacir Calou</title>
 </head>
@@ -11,9 +12,9 @@
     
     <header>
 
-        <img src="image\Logo_Filarmonica.png" alt="Logo Banda Filarmônica" height="150px">
+        <img src="image\Logo_Filarmonica.png" alt="Logo Banda Filarmônica" height="200px" height="80%" data-aos="fade-up" id="Logo">
 
-        <nav>
+        <nav data-aos="fade-up">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
@@ -25,12 +26,12 @@
 
     <main>
 
-        <div class="main-home">
+        <div class="main-home" data-aos="fade-up">
 
             <section id="primeira-secao">
 
                 <h1>Banda<br>Filarmônica</h1>
-                <img src="image\brasão_filarmonica.png" alt="Brasao Filarônica" height="250px">
+                <img src="image\Brasao_Filarmonica.png" alt="Brasao Filarônica" height="300px">
 
             </section>
 
@@ -46,7 +47,7 @@
 
         <div class="main-sobre">
 
-            <div class="main-sobre-bloco">
+            <div class="main-sobre-bloco" data-aos="fade-up">
 
                 <div class="bloco-esquerda">
 
@@ -75,7 +76,7 @@
 
             </div>
 
-            <div class="main-sobre-bloco">
+            <div class="main-sobre-bloco" data-aos="fade-up">
 
                 <div class="bloco-esquerda">
                     <p>
@@ -99,7 +100,7 @@
 
             </div>
 
-            <div class="main-sobre-bloco">
+            <div class="main-sobre-bloco" data-aos="fade-up">
 
                 <div class="bloco-esquerda">
 
@@ -126,10 +127,10 @@
 
         </div>
 
-        <div class="main-contatos">
+        <div class="main-contatos" data-aos="fade-up">
 
             <center>
-                <h1>Banda Filarmonica Moacir Calou</h1>
+                <h1 data-aos="fade-up">Banda Filarmonica Moacir Calou</h1>
             </center>
 
             <div class="contatos-banda">
@@ -147,10 +148,10 @@
             </div>
 
             <center>
-                <h1>Maestro Adinei</h1>
+                <h1 data-aos="fade-up">Maestro Adinei</h1>
             </center>
 
-            <div class="contatos-maestro">
+            <div class="contatos-maestro" data-aos="fade-up">
 
                 <div class="contatos-instagram">
 
@@ -180,7 +181,15 @@
 
         <h4> © By Banda Filarmônica Moacir Calou </h4>
 
+
     </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 700
+            });
+        </script>
 
 </body>
 </html>
