@@ -97,9 +97,6 @@ main{
     color: #000639;
 }
 
-
-
-
 /* Sobre */
 
 .main-sobre{
@@ -108,38 +105,36 @@ main{
     width: 100%;
     background-color: #f8f4f4;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.sobre-esquerda{
-    height: 90%;
+.main-sobre-bloco{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.bloco-esquerda{
+    height: 100%;
     width: 50%;
     padding: 0 70px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    /* animation: move 500ms 500ms backwards; */
 }
-.sobre-esquerda p {
+.bloco-esquerda p {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: #000639;
 }
 
-.sobre-direita{
-    height: 90%;
+.bloco-direita{
+    height: 100%;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* animation: move 500ms 500ms backwards; */
 }
-
-
-
 
 /* Contatos */
 
